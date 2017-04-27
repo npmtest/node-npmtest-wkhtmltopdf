@@ -1,6 +1,6 @@
 # npmtest-wkhtmltopdf
 
-#### test coverage for  [wkhtmltopdf (v0.3.4)](https://github.com/devongovett/node-wkhtmltopdf#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-wkhtmltopdf.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-wkhtmltopdf) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-wkhtmltopdf.svg)](https://travis-ci.org/npmtest/node-npmtest-wkhtmltopdf)
+#### basic test coverage for  [wkhtmltopdf (v0.3.4)](https://github.com/devongovett/node-wkhtmltopdf#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-wkhtmltopdf.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-wkhtmltopdf) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-wkhtmltopdf.svg)](https://travis-ci.org/npmtest/node-npmtest-wkhtmltopdf)
 
 #### A wrapper for the wkhtmltopdf HTML to PDF converter using WebKit
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-wkhtmltopdf/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-wkhtmltopdf/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-wkhtmltopdf/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-wkhtmltopdf/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-wkhtmltopdf/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-wkhtmltopdf/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-wkhtmltopdf/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-wkhtmltopdf/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-wkhtmltopdf/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-wkhtmltopdf/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-wkhtmltopdf/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-wkhtmltopdf/build/coverage.html/index.html)
 
@@ -83,7 +83,8 @@
     "scripts": {
         "test": "jasmine"
     },
-    "version": "0.3.4"
+    "version": "0.3.4",
+    "bin": {}
 }
 ```
 
